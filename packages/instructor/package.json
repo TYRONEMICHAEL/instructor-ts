@@ -1,0 +1,10 @@
+{
+  "name": "@instructor-ts/instructor",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "eslint './src/**/*.{ts,tsx}'",
+    "build": "tsc"
+  }
+}
