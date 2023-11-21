@@ -7,9 +7,12 @@
     "lint": "eslint './src/**/*.{ts,tsx}'",
     "build": "tsc"
   },
+  "peerDependencies": {
+    "openai": "^4.19.0"
+  },
   "dependencies": {
     "@instructor-ts/instructor": "workspace:*",
-    "openai": "^4.19.0",
+    "class-validator-jsonschema": "^5.0.0",
     "validator-class": "^2.0.2"
   }
 }
