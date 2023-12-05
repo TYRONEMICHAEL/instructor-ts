@@ -1,5 +1,5 @@
 {
-  "name": "@instructor-ts/completions-api",
+  "name": "@instructor-ts/user-profile",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -7,12 +7,12 @@
     "lint": "eslint './src/**/*.{ts,tsx}'",
     "build": "tsc"
   },
-  "peerDependencies": {
-    "openai": "^4.19.0"
-  },
   "dependencies": {
     "@instructor-ts/instructor": "workspace:*",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
     "class-validator-jsonschema": "^5.0.0",
-    "validator-class": "^2.0.2"
+    "dotenv": "^16.3.1",
+    "openai": "^4.19.0"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@instructor-ts/cli",
+  "name": "@instructor-ts/conversation-summarizer",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,10 +8,11 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@instructor-ts/completions-api": "workspace:*",
     "@instructor-ts/instructor": "workspace:*",
+    "class-transformer": "^0.5.1",
     "class-validator": "^0.14.0",
     "class-validator-jsonschema": "^5.0.0",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "openai": "^4.19.0"
   }
 }
